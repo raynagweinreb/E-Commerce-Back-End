@@ -3,7 +3,6 @@ const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
-const { getEnabledCategories } = require('node:trace_events');
 
 // Products belongsTo Category
 Product.belongsTo(Category,{
